@@ -1,0 +1,129 @@
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+.container {
+  width: 480px;
+  width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.titleglobal {
+  color: white;
+  text-align: center;
+}
+.wraper {
+  display: flex;
+  gap: 50px;
+  /* padding-bottom: 30px;
+  margin-bottom: 50px; */
+}
+
+.startinfomation {
+  text-align: center;
+  padding: 0 270px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  width: 400px;
+  /* height: 350px; */
+  padding-left: 50px;
+  /* padding-top: 30px; */
+}
+@media screen and (min-width: 1200px) {
+  .img {
+    height: 350px;
+    width: auto;
+  }
+}
+.rightsidebar {
+  text-align: center;
+  padding: 0 100px 0 300px;
+  padding-top: 20px;
+}
+@media screen and(width: 1200px) {
+  .rightsidebar {
+  }
+}
+.btnInst {
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: gray;
+  color: black;
+}
+.btnInst:hover {
+  outline: 2px solid #59ff00;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+h2 {
+  margin: 5px;
+  font-size: 30px;
+}
+.subTitle {
+  margin: 5px;
+  text-align: center;
+}
+.sections {
+  padding-bottom: 70px;
+}
+
+.subinfo {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.titleVitamin {
+  font-size: 26px;
+}
+
+.photo {
+  /* scale: 1.5; */
+}
+.info {
+  margin-top: 0;
+}
+.footerIndex {
+  text-align: center;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.address__item {
+  margin: 10px 0;
+}
+.contact__subtitle {
+  margin: 0;
+}
+.address__text {
+  margin: 5px;
+}
+
+.proplist {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.proptext {
+  text-align: center;
+}
+.propItem {
+  text-align: center;
+}
+.propImg {
+  scale: 1.5;
+  margin-bottom: 50px;
+}
