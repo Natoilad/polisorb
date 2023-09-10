@@ -16,12 +16,13 @@ p {
 .wraper {
   display: flex;
   gap: 50px;
+  justify-content: space-between;
 }
 
 .startinfomation {
   text-align: center;
-  padding: 0 270px;
-  font-size: 24px;
+  padding: 0 150px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 70px;
 }
@@ -39,8 +40,9 @@ p {
 }
 .rightsidebar {
   text-align: center;
-  padding: 0 100px 0 300px;
-  padding-top: 20px;
+  /* padding: 0 100px 0 300px; */
+  padding-top: 30px;
+  padding-right: 100px;
 }
 @media screen and(width: 1200px) {
   .rightsidebar {
@@ -67,6 +69,7 @@ h2 {
 .subTitle {
   margin: 5px;
   text-align: center;
+  font-size: 20px;
 }
 .sections {
   padding-bottom: 70px;
@@ -75,6 +78,7 @@ h2 {
 .subinfo {
   margin-bottom: 50px;
   text-align: center;
+  font-size: 20px;
 }
 .titleVitamin {
   font-size: 26px;
@@ -130,6 +134,7 @@ h2 {
   }
   .startinfomation {
     padding: 0;
+    font-size: 20px;
   }
   .wraper {
     display: block;
@@ -139,6 +144,9 @@ h2 {
     padding: 0;
   }
   .polisorb_img {
+    width: 300px;
+  }
+  .photo {
     width: 300px;
   }
 }
