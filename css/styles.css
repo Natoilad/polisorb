@@ -16,8 +16,6 @@ p {
 .wraper {
   display: flex;
   gap: 50px;
-  /* padding-bottom: 30px;
-  margin-bottom: 50px; */
 }
 
 .startinfomation {
@@ -31,10 +29,7 @@ p {
   display: flex;
   justify-content: center;
   width: auto;
-  width: 400px;
-  /* height: 350px; */
   padding-left: 50px;
-  /* padding-top: 30px; */
 }
 @media screen and (min-width: 1200px) {
   .img {
@@ -52,6 +47,7 @@ p {
   }
 }
 .btnInst {
+  display: none;
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
@@ -126,4 +122,23 @@ h2 {
 .propImg {
   scale: 1.5;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 420px;
+  }
+  .startinfomation {
+    padding: 0;
+  }
+  .wraper {
+    display: block;
+  }
+
+  .rightsidebar {
+    padding: 0;
+  }
+  .polisorb_img {
+    width: 300px;
+  }
 }
