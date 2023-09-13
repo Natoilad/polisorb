@@ -99,9 +99,6 @@ h2 {
 .contact__subtitle {
   margin: 0;
 }
-.address__text {
-  margin: 5px;
-}
 
 .proplist {
   display: flex;
@@ -117,6 +114,10 @@ h2 {
 .propImg {
   scale: 1.5;
   margin-bottom: 50px;
+}
+
+.footer-address {
+  font-style: normal;
 }
 
 /* TABLE STYLE */
